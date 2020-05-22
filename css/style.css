@@ -95,7 +95,7 @@ body {
 }
 
 #modal-body-text {
-	background-color: red;
+	/* background-color: red; */
 	padding: 5px;
 	margin: 10px;
 }
@@ -104,4 +104,21 @@ body {
 	width: fit-content;
 	margin-bottom: 3px;
 	border: outset 2px;
+}
+
+/* Emmitter code */
+.icon_pulse {
+	background: hsl(248, 76%, 60%);
+	box-shadow: 0 0 2px 2px hsla(248, 100%, 64%, 0.6);
+
+	animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+	from {
+		box-shadow: 0 0 0px 0px hsla(248, 100%, 64%, 0.6);
+	}
+	to {
+		box-shadow: 0 0 6px 4px hsla(248, 100%, 64%, 0.6);
+	}
 }

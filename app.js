@@ -22,3 +22,18 @@ closeBtn.addEventListener("click", closeModal);
 window.addEventListener("click", clickOutside);
 
 //* Windos95 Modal
+
+const w_modal = document.getElementById("windowsModal");
+const w_modalBtn = document.getElementById("w-modal-btn");
+const w_closeBtn = document.getElementsByClassName("w-close")[0];
+
+const openWinModal = () => {
+	w_modal.style.display = "block";
+};
+
+const closeWinModal = () => {
+	w_modal.style.display = "none";
+};
+
+w_modalBtn.addEventListener("click", openWinModal);
+w_closeBtn.addEventListener("click", closeWinModal);

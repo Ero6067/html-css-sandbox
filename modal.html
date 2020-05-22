@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<button id="modal-btn" class="btn">Click Here</button>
-		<button id="modal-btn" class="btn blue">Windows</button>
+		<button id="w-modal-btn" class="btn blue">Windows</button>
 
 		<div id="simpleModal" class="modal">
 			<div class="modal-content">
@@ -17,12 +17,15 @@
 			</div>
 		</div>
 
-		<div id="simpleModal">
+		<div id="windowsModal" class="modal">
 			<div class="win-modal-content">
 				<div class="tileBar blue">
 					Windows 95 v4.0
+					<!-- 
+            TODO (change the ? button to have fucntionality and its own class)
+          -->
 					<div class="tilebar-closeBtn">×</div>
-					<div class="tilebar-closeBtn">?</div>
+					<div class="tilebar-closeBtn" class="w-close">?</div>
 				</div>
 				<div id="modal-body">
 					<div id="modal-body-text">
@@ -31,7 +34,7 @@
 						non est odio. Morbi congue placerat leo at cursus. Mauris consequat
 						sagittis justo.
 					</div>
-					<button id="modal-closeBtn-bottom">Close</button>
+					<button id="modal-closeBtn-bottom" class="w-close">Close</button>
 				</div>
 			</div>
 		</div>
