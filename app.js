@@ -20,3 +20,5 @@ const clickOutside = (e) => {
 modalBtn.addEventListener("click", openModal);
 closeBtn.addEventListener("click", closeModal);
 window.addEventListener("click", clickOutside);
+
+//* Windos95 Modal
